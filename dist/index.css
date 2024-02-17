@@ -1,0 +1,37 @@
+:is(h1, h2, h3, h4) {
+  color: #ffff;
+}
+p {
+  color: red;
+}
+@container vip {
+  h1 {
+    color: purple;
+  }
+}
+
+.sut__neme {
+    color: orange;
+  }
+
+.sut p {
+    width: 20px;
+  }
+
+.wapper .content {
+    font-size: 20px;
+    color: orange;
+    width: 20px;
+    background-color: red;
+  }
+input[type="text"]::-moz-placeholder {
+  color: rgba(225, 29, 225, 0.821);
+}
+input[type="text"]::placeholder {
+  color: rgba(225, 29, 225, 0.821);
+}
+@layer nameless {
+  h1 {
+    color: white;
+  }
+}

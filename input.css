@@ -1,0 +1,39 @@
+@import "./main.css";
+:--heading {
+  color: #ffff;
+}
+$color: green;
+p {
+  color: red;
+}
+@container vip {
+  h1 {
+    color: purple;
+  }
+}
+
+.sut {
+  &__neme {
+    color: orange;
+  }
+  p {
+    width: 20px;
+  }
+}
+
+.wapper {
+  .content {
+    font-size: 20px;
+    color: $bigCityBoi;
+    width: 20px;
+    background-color: red;
+  }
+}
+input[type="text"]::placeholder {
+  color: rgba(225, 29, 225, 0.821);
+}
+@layer nameless {
+  h1 {
+    color: white;
+  }
+}
